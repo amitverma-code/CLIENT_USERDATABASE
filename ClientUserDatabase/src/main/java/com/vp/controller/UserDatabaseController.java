@@ -16,7 +16,7 @@ public class UserDatabaseController {
 	@Autowired
 	UserDatabaseService userDatabaseService;
 	
-	@GetMapping("/userDatabase123")
+	@GetMapping("/userDatabase1234")
 	public List<UserDatabase> getStudents(){
 		return userDatabaseService.getAllStudent();
 	}
